@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Star, Users, MoreVertical, PlusCircle, X } from "lucide-react"
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 
 // Import avatars
 import Avt1 from "@/components/images/avt1.png"
@@ -22,7 +22,7 @@ interface StaffMember {
   role: string
   subject: string
   type: "Subject" | "Position"
-  avatar: any
+  avatar: string | StaticImageData
   isFavorite: boolean
 }
 

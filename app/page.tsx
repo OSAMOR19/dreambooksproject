@@ -269,8 +269,8 @@ export default function Home() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl sm:text-4xl font-bold text-center text-[#246B73] mb-8">About Dream Books</h2>
             <p className="text-gray-600 text-center max-w-3xl mx-auto mb-12">
-              Dream Books is more than just a school portal; it's a gateway to educational excellence. Founded with the
-              vision of revolutionizing the way students and educators interact, we've created a platform that nurtures
+              Dream Books is more than just a school portal; it&apos;s a gateway to educational excellence. Founded with the
+              vision of revolutionizing the way students and educators interact, we&apos;ve created a platform that nurtures
               curiosity, facilitates learning, and prepares students for the challenges of tomorrow.
             </p>
             <div className="text-center">

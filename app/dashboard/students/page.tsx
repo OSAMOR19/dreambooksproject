@@ -9,6 +9,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { ArrowLeft, MoreHorizontal } from "lucide-react"
 import Image from "next/image"
+import { StaticImageData } from "next/image"
 
 // Import avatars
 import Avt1 from "@/components/images/avt1.png"
@@ -18,7 +19,7 @@ import Avt3 from "@/components/images/avt3.png"
 interface Student {
   id: string
   name: string
-  avatar: any
+  avatar: string | StaticImageData
   sex: "M" | "F"
   dob: string
   religion: string
